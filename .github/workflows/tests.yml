@@ -1,0 +1,108 @@
+# ======================================================
+#  Pipeline CI/CD — OrangeHRM
+#  Incluye: E2E · API · Performance (k6)
+#  Se ejecuta automáticamente cuando haces push a GitHub
+# ======================================================
+
+name: OrangeHRM Tests
+
+# Cuándo se ejecuta ======================================================
+on:
+  push:
+    branches: [main]          # cuando subes código a main
+  workflow_dispatch:           # o manualmente desde GitHub → Actions
+
+jobs:
+  tests:
+    name: Ejecutar Tests
+    runs-on: ubuntu-latest     # máquina virtual de GitHub
+
+    steps:
+
+      # Descarga tu código del repositorio de GitHub
+      - name: Obtener código fuente
+        uses: actions/checkout@v4
+
+      # Instala Node.js — equivalente a instalar Java para Maven
+      - name: Instalar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      # Instala dependencias del proyecto — equivalente a mvn install
+      - name: Construir proyecto (npm ci)
+        run: npm ci
+
+      # Instala el navegador Chromium para Playwright
+      - name: Instalar Chromium
+        run: npx playwright install --with-deps chromium
+
+      # Hace login en OrangeHRM y guarda la sesión en session.json
+      - name: Generar sesión de login
+        run: npx playwright test --project=setup
+        env:
+          CI: true
+
+      # Ejecuta las pruebas de interfaz de usuario (E2E)
+      - name: Ejecutar pruebas E2E
+        run: npx playwright test --project=chromium
+        env:
+          CI: true
+
+      # Ejecuta las pruebas de API
+      - name: Ejecutar pruebas de API
+        run: npx playwright test --project=api-tests
+        env:
+          CI: true
+
+      # Instala k6 en la máquina virtual de GitHub
+      - name: Instalar k6
+        run: |
+          sudo gpg --no-default-keyring \
+            --keyring /usr/share/keyrings/k6-archive-keyring.gpg \
+            --keyserver hkp://keyserver.ubuntu.com:80 \
+            --recv-keys C5AD17C747E3415A3642D57D77C6C491D6AC1D69
+          echo "deb [signed-by=/usr/share/keyrings/k6-archive-keyring.gpg] \
+            https://dl.k6.io/deb stable main" \
+            | sudo tee /etc/apt/sources.list.d/k6.list
+          sudo apt-get update
+          sudo apt-get install k6
+
+      # Ejecuta la prueba de carga con k6
+      # continue-on-error: true → si k6 falla, el pipeline sigue
+      - name: Ejecutar pruebas de performance (k6)
+        run: |
+          mkdir -p test-results/performance
+          k6 run \
+            --out json=test-results/performance/results.json \
+            tests/performance/login.perf.ts
+        continue-on-error: true
+
+      # Genera y almacena el reporte HTML de Playwright
+      # if: always() → se ejecuta aunque los tests fallen
+      - name: Almacenar reporte HTML (Playwright)
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: reporte-playwright
+          path: playwright-report/
+          retention-days: 30
+
+      # Almacena screenshots y trazas de los tests
+      - name: Almacenar evidencia (screenshots + trazas)
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: evidencia-tests
+          path: test-results/
+          retention-days: 30
+
+      # Almacena los resultados de performance de k6
+      - name: Almacenar resultados de performance
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: reporte-performance
+          path: test-results/performance/
+          retention-days: 30
