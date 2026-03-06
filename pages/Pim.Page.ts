@@ -10,6 +10,7 @@ export class Pim extends Methods {
     private readonly lastName   : Locator;
     private readonly perfilImage: Locator;
     private readonly saveButton : Locator;
+    private readonly editPanel : Locator;
 
     constructor(page:Page) {
         super(page);
@@ -19,6 +20,7 @@ export class Pim extends Methods {
         this.lastName       = page.getByPlaceholder('Last Name');
         this.perfilImage    = page.locator('input.oxd-file-input');
         this.saveButton     = page.getByRole('button', { name: 'Save' });
+        this.editPanel    = page.locator('.orangehrm-edit-employee-content');
     }
 
     /* =============== Methods =============== */
@@ -41,8 +43,9 @@ export class Pim extends Methods {
         await this.clickAddButton();
         await this.fillFirstName(firstName);
         await this.fillLastName(lastName);
-        await this.uploadPerfilImage('../assets/foto-perfil.png');
+        await this.uploadPerfilImage('assets/images/foto-perfil.png');
         await this.clickSaveButton();
+        await this.editPanel.waitFor({ state: 'visible' });
     }
 
 

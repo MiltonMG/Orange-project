@@ -15,7 +15,7 @@ class Methods {
      * @param {String} path the URL path you want to pass to the Browser object
      */
     async navigateTo(path = 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login') {
-    await this.page.goto(path);
+        await this.page.goto(path);
     }
     
     /**

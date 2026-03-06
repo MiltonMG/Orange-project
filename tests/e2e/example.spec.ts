@@ -23,16 +23,16 @@ test.describe( 'OrangeHRM Tests', () =>{
     methods       = new Methods( page );
   });
 
-  test('test-01: validar la creacion de un usuario nuevo', async ({ page }) => {
+  test('test-01: Validar la creacion de un usuario nuevo', async () => {
     await methods.navigateTo();
     await loginPage.login();
     await dashboardMenu.clickMenuItem(MenuItems.PIM);
     await pim.createEmployee(userName, lastName);
     await dashboardMenu.clickMenuItem(MenuItems.Directory);
-    await directory.searchEmployee(`${userName} ${lastName}`);
-    await page.waitForTimeout(5000);
-    // await expect(page).toHaveTitle(/Playwright/);
-
+    await directory.searchEmployee(`${userName}`);
+    await directory.clickEmployeeCard();
+    const employeeName = await directory.getEmployeeNameFromCard();
+    expect(employeeName).toContain(userName);
   });
 
 });
