@@ -6,7 +6,9 @@
   "scripts": {
     "tests": "npx playwright test",
     "e2e-test": "npx playwright test --project=chromium",
-    "api-test": "npx playwright test --project=api-tests  --trace on"
+    "api-test": "npx playwright test --project=api-tests  --trace on",
+    "p1-test": "k6 run --vus 1 --duration 10s tests/performance/login.perf.ts",
+    "p-test": "k6 run tests/performance/login.perf.ts"
   },
   "keywords": [],
   "author": "",

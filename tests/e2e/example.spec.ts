@@ -23,16 +23,24 @@ test.describe( 'OrangeHRM Tests', () =>{
     methods       = new Methods( page );
   });
 
-  test('test-01: Validar la creacion de un usuario nuevo', async () => {
-    await methods.navigateTo();
-    await loginPage.login();
-    await dashboardMenu.clickMenuItem(MenuItems.PIM);
-    await pim.createEmployee(userName, lastName);
-    await dashboardMenu.clickMenuItem(MenuItems.Directory);
-    await directory.searchEmployee(`${userName}`);
-    await directory.clickEmployeeCard();
-    const employeeName = await directory.getEmployeeNameFromCard();
-    expect(employeeName).toContain(userName);
+  test('Crear y validar nuevo emplead', async () => {
+    await test.step('Paso 1: Navegar a la aplicación y hacer login', async () => {
+      await methods.navigateTo();
+      await loginPage.login();
+    });
+
+    await test.step('Paso 2: Crear un nuevo empleado en PIM', async () => {
+      await dashboardMenu.clickMenuItem(MenuItems.PIM);
+      await pim.createEmployee(userName, lastName);
+    });
+
+    await test.step('Paso 3: Buscar y validar el empleado en Directory', async () => {
+      await dashboardMenu.clickMenuItem(MenuItems.Directory);
+      await directory.searchEmployee(`${userName}`);
+      await directory.clickEmployeeCard();
+      const employeeName = await directory.getEmployeeNameFromCard();
+      expect(employeeName).toBe(userName);
+    });
   });
 
 });
