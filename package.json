@@ -8,7 +8,11 @@
     "e2e-test": "npx playwright test --project=chromium",
     "api-test": "npx playwright test --project=api-tests  --trace on",
     "p1-test": "k6 run --vus 1 --duration 10s tests/performance/login.perf.ts",
-    "p-test": "k6 run tests/performance/login.perf.ts"
+    "p-test": "k6 run tests/performance/login.perf.ts",
+    "postinstall": "npm update browserstack-node-sdk",
+    "tests-browserstack": "npx browserstack-node-sdk playwright test",
+    "e2e-test-browserstack": "npx browserstack-node-sdk playwright test --project=chromium",
+    "api-test-browserstack": "npx browserstack-node-sdk playwright test --project=api-tests  --trace on"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +20,7 @@
   "devDependencies": {
     "@playwright/test": "^1.58.2",
     "@types/k6": "^1.6.0",
-    "@types/node": "^25.3.5"
+    "@types/node": "^25.3.5",
+    "browserstack-node-sdk": "^1.50.1"
   }
 }

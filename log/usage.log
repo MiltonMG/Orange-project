@@ -1,0 +1,687 @@
+2026-03-06 15:34:27 - [32minfo[39m: Creating configuration file...
+2026-03-06 15:34:27 - [32minfo[39m: Adding new script(s) in package.json...
+2026-03-06 15:34:27 - [32minfo[39m: Setup completed
+2026-03-06 15:34:49 - [32minfo[39m: Reading configs from C:\Users\milto\Desktop\OrangeProject\browserstack.yml
+2026-03-06 15:34:49 - [32minfo[39m: Log Directory has been set to C:\Users\milto\Desktop\OrangeProject\log
+2026-03-06 15:34:49 - [32minfo[39m: Log Directory has been set to C:\Users\milto\Desktop\OrangeProject\log
+2026-03-06 15:34:49 - [32minfo[39m: Running SDK with args C:\Program Files\nodejs\node.exe C:\Users\milto\Desktop\OrangeProject\node_modules\browserstack-node-sdk\src\bin\runner.js playwright test
+2026-03-06 15:34:49 - [32minfo[39m: Running SDK with args C:\Program Files\nodejs\node.exe C:\Users\milto\Desktop\OrangeProject\node_modules\browserstack-node-sdk\src\bin\runner.js playwright test
+2026-03-06 15:34:49 - [32minfo[39m: SDK run started with id: 55f58004-6d58-481a-8439-4434652a935f
+2026-03-06 15:34:49 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2026-03-06 15:34:49 - [32minfo[39m: SDK run started with id: 55f58004-6d58-481a-8439-4434652a935f
+2026-03-06 15:34:58 - [32minfo[39m: Local binary started successfully
+2026-03-06 15:34:49 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2026-03-06 15:34:58 - [32minfo[39m: Local binary started successfully
+2026-03-06 15:35:00 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2026-03-06 15:35:00 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2026-03-06 15:35:00 - [32minfo[39m: [CLIUtils] Current CLI Path Found: C:\Users\milto\.browserstack\cli\binary-win-x64.exe
+2026-03-06 15:35:00 - [32minfo[39m: [CLIUtils] Current CLI Path Found: C:\Users\milto\.browserstack\cli\binary-win-x64.exe
+2026-03-06 15:35:01 - [32minfo[39m: [BrowserstackCLI] spawning command='C:\Users\milto\.browserstack\cli\binary-win-x64.exe,sdk'
+2026-03-06 15:35:01 - [32minfo[39m: [BrowserstackCLI] spawning command='C:\Users\milto\.browserstack\cli\binary-win-x64.exe,sdk'
+2026-03-06 15:35:01 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"91d89991-4c92-4e74-8359-5a1f8d6c1495","listen":"127.0.0.1:5400","port":"5400"}
+2026-03-06 15:35:01 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"91d89991-4c92-4e74-8359-5a1f8d6c1495","listen":"127.0.0.1:5400","port":"5400"}
+2026-03-06 15:35:01 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-03-06 15:35:01 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 91d89991-4c92-4e74-8359-5a1f8d6c1495 and listen address: 127.0.0.1:5400
+2026-03-06 15:35:01 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2026-03-06 15:35:01 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-03-06 15:35:01 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test"], parsedConfig=[]
+2026-03-06 15:35:01 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 91d89991-4c92-4e74-8359-5a1f8d6c1495 and listen address: 127.0.0.1:5400
+2026-03-06 15:35:01 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2026-03-06 15:35:01 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test"], parsedConfig=[]
+2026-03-06 15:35:08 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2026-03-06 15:35:08 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2026-03-06 15:35:08 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-03-06 15:35:08 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=91d89991-4c92-4e74-8359-5a1f8d6c1495
+2026-03-06 15:35:08 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-03-06 15:35:08 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test"]
+2026-03-06 15:35:08 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-03-06 15:35:08 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-03-06 15:35:08 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=91d89991-4c92-4e74-8359-5a1f8d6c1495
+2026-03-06 15:35:08 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-03-06 15:35:08 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test"]
+2026-03-06 15:35:08 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-03-06 15:35:11 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 91d89991-4c92-4e74-8359-5a1f8d6c1495
+2026-03-06 15:35:11 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-03-06 15:35:11 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-03-06 15:35:11 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-03-06 15:35:11 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-03-06 15:35:11 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=91d89991-4c92-4e74-8359-5a1f8d6c1495
+2026-03-06 15:35:11 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-03-06 15:35:11 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-03-06 15:35:11 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-03-06 15:35:11 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-03-06 15:35:11 - [32minfo[39m: Setting up TestInfo directory at C:\Users\milto\Desktop\OrangeProject\log\.obs_test_details-default
+2026-03-06 15:35:11 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: created instance for target=13112:0, state=TestFrameworkState.INIT_TEST
+2026-03-06 15:35:11 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: saved instance contextId=b9a2907118441c589dc9336484740b5e7b64c8233f267bbe130ccd527bf0cbbc target=13112:0
+2026-03-06 15:35:14 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 91d89991-4c92-4e74-8359-5a1f8d6c1495
+2026-03-06 15:35:14 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 91d89991-4c92-4e74-8359-5a1f8d6c1495
+2026-03-06 15:35:14 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-03-06 15:35:14 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-03-06 15:35:14 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 91d89991-4c92-4e74-8359-5a1f8d6c1495
+2026-03-06 15:35:14 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-03-06 15:35:14 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-03-06 15:35:14 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-03-06 15:35:14 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-03-06 15:35:14 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-03-06 15:35:14 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-03-06 15:35:14 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-03-06 15:35:14 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=91d89991-4c92-4e74-8359-5a1f8d6c1495
+2026-03-06 15:35:14 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-03-06 15:35:14 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-03-06 15:35:14 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-03-06 15:35:14 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-03-06 15:35:14 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-03-06 15:35:14 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-03-06 15:35:14 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=91d89991-4c92-4e74-8359-5a1f8d6c1495
+2026-03-06 15:35:14 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-03-06 15:35:14 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-03-06 15:35:14 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-03-06 15:35:14 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-03-06 15:35:14 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-03-06 15:35:14 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=91d89991-4c92-4e74-8359-5a1f8d6c1495
+2026-03-06 15:35:14 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-03-06 15:35:14 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-03-06 15:35:14 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-03-06 15:35:14 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-03-06 15:35:14 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 91d89991-4c92-4e74-8359-5a1f8d6c1495
+2026-03-06 15:35:14 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-03-06 15:35:14 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-03-06 15:35:14 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-03-06 15:35:14 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-03-06 15:35:14 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 91d89991-4c92-4e74-8359-5a1f8d6c1495
+2026-03-06 15:35:14 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-03-06 15:35:14 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-03-06 15:35:14 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 91d89991-4c92-4e74-8359-5a1f8d6c1495
+2026-03-06 15:35:14 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-03-06 15:35:14 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-03-06 15:35:14 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-03-06 15:35:14 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=23860:0, state=AutomationFrameworkState.CREATE
+2026-03-06 15:35:14 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=08f4468526c5b43bd74c6a80ee2a499c57a19013472dd18ceb10c683b314329c target=23860:0
+2026-03-06 15:35:14 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-03-06 15:35:14 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=19084:0, state=AutomationFrameworkState.CREATE
+2026-03-06 15:35:14 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=4160a828c7d3037e5b14c5297eb58304f2369624ae62d2696b0debc715ce00ed target=19084:0
+2026-03-06 15:35:14 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-03-06 15:35:14 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=15316:0, state=AutomationFrameworkState.CREATE
+2026-03-06 15:35:14 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=bf5dcb7616cb5e7f11d7a29aa8a8f0562272a213abdadf4e6c4fbb264dcecf2f target=15316:0
+2026-03-06 15:35:18 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-03-06 15:35:18 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-03-06 15:35:18 - [32minfo[39m: [GrpcClient] Sending DriverInit
+2026-03-06 15:35:18 - [32minfo[39m: [GrpcClient] DriverInit request successful
+2026-03-06 15:35:19 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-03-06 15:35:19 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-03-06 15:35:19 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-03-06 15:35:19 - [32minfo[39m: [GrpcClient] Sending DriverInit
+2026-03-06 15:35:19 - [32minfo[39m: [GrpcClient] DriverInit request successful
+2026-03-06 15:35:19 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-03-06 15:35:19 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-03-06 15:35:19 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-03-06 15:35:19 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-03-06 15:35:19 - [32minfo[39m: [ObservabilityModule] onBeforeTest: TEST REPORTING AND ANALYTICS sync done
+2026-03-06 15:35:20 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-03-06 15:35:20 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-03-06 15:35:20 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-03-06 15:35:20 - [32minfo[39m: [ObservabilityModule] onBeforeTest: TEST REPORTING AND ANALYTICS sync done
+2026-03-06 15:35:20 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-03-06 15:35:20 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-03-06 15:35:20 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-03-06 15:35:20 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-03-06 15:35:21 - [32minfo[39m: [Accessibility] afterTestHook state: accessibilityPlatform=false, bstackA11yShouldScan=true
+2026-03-06 15:35:21 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-03-06 15:35:21 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-03-06 15:35:21 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-03-06 15:35:21 - [32minfo[39m: [ObservabilityModule] onBeforeTest: TEST REPORTING AND ANALYTICS sync done
+2026-03-06 15:35:21 - [32minfo[39m: [PlaywrightDriverModule] testId: 42e4eb252cab889502ef-a6a56be229a62b2eb054
+2026-03-06 15:35:21 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: {
+  uuid: 'feb22a9e-9a14-485c-8122-0385c1150a76',
+  test_framework_name: 'Playwright',
+  test_framework_version: '1.58.2',
+  test_logs: [],
+  test_hooks_finished: {},
+  test_hooks_started: {},
+  test_uuid: 'feb22a9e-9a14-485c-8122-0385c1150a76',
+  test_result: 'pending',
+  automate_session_name: 'API OrangeHRM - Empleados - GET /pim/employees → lista empleados',
+  test_file_path: 'C:\\Users\\milto\\Desktop\\OrangeProject\\tests\\api\\employees.api.spec.ts',
+  test_id: '42e4eb252cab889502ef-a6a56be229a62b2eb054',
+  test_name: 'GET /pim/employees → lista empleados',
+  test_location: 'C:\\Users\\milto\\Desktop\\OrangeProject\\tests\\api\\employees.api.spec.ts:6',
+  test_code: 'async ({\n' +
+    '    page\n' +
+    '  }) => {\n' +
+    "    await _test.test.step('Enviar solicitud GET a la API de empleados', async () => {\n" +
+    "      const response = await page.request.get('https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees');\n" +
+    '      (0, _test.expect)(response.status()).toBe(200);\n' +
+    '    });\n' +
+    "    await _test.test.step('Validar estructura de la respuesta', async () => {\n" +
+    "      const response = await page.request.get('https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees');\n" +
+    '      const body = await response.json();\n' +
+    "      console.log('Status:', response.status());\n" +
+    "      console.log('Headers:', response.headers());\n" +
+    "      console.log('Body:', JSON.stringify(body, null, 2));\n" +
+    "      (0, _test.expect)(body).toHaveProperty('data');\n" +
+    '      (0, _test.expect)(Array.isArray(body.data)).toBeTruthy();\n' +
+    '      (0, _test.expect)(body.data.length).toBeGreaterThan(0);\n' +
+    "      // console.log('Total empleados:', body.meta?.total);\n" +
+    '    });\n' +
+    '  }',
+  test_tags: [],
+  test_started_at: '2026-03-06T21:35:14.418Z',
+  test_scope: 'API OrangeHRM - Empleados - GET /pim/employees → lista empleados',
+  test_scopes: [ 'API OrangeHRM - Empleados' ],
+  test_rerun_name: ' -latest:OSX Big Sur-browserstack api\\employees.api.spec.ts API OrangeHRM - Empleados GET /pim/employees → lista empleados'
+}
+2026-03-06 15:35:21 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-03-06 15:35:21 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-03-06 15:35:22 - [32minfo[39m: getting screenshots results.
+2026-03-06 15:35:22 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-03-06 15:35:22 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-03-06 15:35:22 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-03-06 15:35:22 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-03-06 15:35:23 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-03-06 15:35:23 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-03-06 15:35:23 - [32minfo[39m: [GrpcClient] Sending DriverInit
+2026-03-06 15:35:23 - [32minfo[39m: [GrpcClient] DriverInit request successful
+2026-03-06 15:35:24 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-03-06 15:35:24 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 91d89991-4c92-4e74-8359-5a1f8d6c1495
+2026-03-06 15:35:24 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-03-06 15:35:24 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-03-06 15:35:24 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-03-06 15:35:24 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-03-06 15:35:24 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=91d89991-4c92-4e74-8359-5a1f8d6c1495
+2026-03-06 15:35:24 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-03-06 15:35:24 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-03-06 15:35:24 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-03-06 15:35:24 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-03-06 15:35:24 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-03-06 15:35:24 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-03-06 15:35:24 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-03-06 15:35:24 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-03-06 15:35:24 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 91d89991-4c92-4e74-8359-5a1f8d6c1495
+2026-03-06 15:35:24 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-03-06 15:35:24 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=6884:0, state=AutomationFrameworkState.CREATE
+2026-03-06 15:35:24 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=4f1e874c0832268b37dbf3dafcbf59a642579cd3c00b1081ad9e19c2c261eb8e target=6884:0
+2026-03-06 15:35:24 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-03-06 15:35:24 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-03-06 15:35:24 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-03-06 15:35:24 - [32minfo[39m: [ObservabilityModule] onBeforeTest: TEST REPORTING AND ANALYTICS sync done
+2026-03-06 15:35:26 - [32minfo[39m: [Accessibility] afterTestHook state: accessibilityPlatform=false, bstackA11yShouldScan=true
+2026-03-06 15:35:26 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-03-06 15:35:26 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-03-06 15:35:26 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-03-06 15:35:26 - [32minfo[39m: [ObservabilityModule] onBeforeTest: TEST REPORTING AND ANALYTICS sync done
+2026-03-06 15:35:26 - [32minfo[39m: [PlaywrightDriverModule] testId: 42e4eb252cab889502ef-734538e043804eb5255a
+2026-03-06 15:35:26 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: {
+  uuid: '11417819-8b3c-4de0-b700-ef33fb857180',
+  test_framework_name: 'Playwright',
+  test_framework_version: '1.58.2',
+  test_logs: [],
+  test_hooks_finished: {},
+  test_hooks_started: {},
+  test_uuid: '11417819-8b3c-4de0-b700-ef33fb857180',
+  test_result: 'pending',
+  automate_session_name: 'API OrangeHRM - Empleados - GET /pim/employees → lista empleados',
+  test_file_path: 'C:\\Users\\milto\\Desktop\\OrangeProject\\tests\\api\\employees.api.spec.ts',
+  test_id: '42e4eb252cab889502ef-734538e043804eb5255a',
+  test_name: 'GET /pim/employees → lista empleados',
+  test_location: 'C:\\Users\\milto\\Desktop\\OrangeProject\\tests\\api\\employees.api.spec.ts:6',
+  test_code: 'async ({\n' +
+    '    page\n' +
+    '  }) => {\n' +
+    "    await _test.test.step('Enviar solicitud GET a la API de empleados', async () => {\n" +
+    "      const response = await page.request.get('https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees');\n" +
+    '      (0, _test.expect)(response.status()).toBe(200);\n' +
+    '    });\n' +
+    "    await _test.test.step('Validar estructura de la respuesta', async () => {\n" +
+    "      const response = await page.request.get('https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees');\n" +
+    '      const body = await response.json();\n' +
+    "      console.log('Status:', response.status());\n" +
+    "      console.log('Headers:', response.headers());\n" +
+    "      console.log('Body:', JSON.stringify(body, null, 2));\n" +
+    "      (0, _test.expect)(body).toHaveProperty('data');\n" +
+    '      (0, _test.expect)(Array.isArray(body.data)).toBeTruthy();\n' +
+    '      (0, _test.expect)(body.data.length).toBeGreaterThan(0);\n' +
+    "      // console.log('Total empleados:', body.meta?.total);\n" +
+    '    });\n' +
+    '  }',
+  test_tags: [],
+  test_started_at: '2026-03-06T21:35:14.448Z',
+  test_scope: 'API OrangeHRM - Empleados - GET /pim/employees → lista empleados',
+  test_scopes: [ 'API OrangeHRM - Empleados' ],
+  test_rerun_name: ' -latest:Windows 10-browserstack api\\employees.api.spec.ts API OrangeHRM - Empleados GET /pim/employees → lista empleados'
+}
+2026-03-06 15:35:26 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-03-06 15:35:26 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-03-06 15:35:27 - [32minfo[39m: getting screenshots results.
+2026-03-06 15:35:27 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-03-06 15:35:27 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-03-06 15:35:27 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-03-06 15:35:27 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-03-06 15:35:29 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 91d89991-4c92-4e74-8359-5a1f8d6c1495
+2026-03-06 15:35:29 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-03-06 15:35:29 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-03-06 15:35:29 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-03-06 15:35:29 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-03-06 15:35:29 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=91d89991-4c92-4e74-8359-5a1f8d6c1495
+2026-03-06 15:35:29 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-03-06 15:35:29 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-03-06 15:35:29 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-03-06 15:35:29 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-03-06 15:35:29 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-03-06 15:35:29 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 91d89991-4c92-4e74-8359-5a1f8d6c1495
+2026-03-06 15:35:29 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-03-06 15:35:29 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-03-06 15:35:29 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=5472:0, state=AutomationFrameworkState.CREATE
+2026-03-06 15:35:29 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=dd67964659fcf1f1ba91658cbfd5b7bb0fb3c6c5c4339dfb972c5660d25bbd19 target=5472:0
+2026-03-06 15:35:38 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-03-06 15:35:38 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-03-06 15:35:38 - [32minfo[39m: [GrpcClient] Sending DriverInit
+2026-03-06 15:35:38 - [32minfo[39m: [GrpcClient] DriverInit request successful
+2026-03-06 15:35:39 - [32minfo[39m: [Accessibility] afterTestHook state: accessibilityPlatform=false, bstackA11yShouldScan=true
+2026-03-06 15:35:39 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-03-06 15:35:39 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-03-06 15:35:39 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-03-06 15:35:39 - [32minfo[39m: [ObservabilityModule] onBeforeTest: TEST REPORTING AND ANALYTICS sync done
+2026-03-06 15:35:39 - [32minfo[39m: [PlaywrightDriverModule] testId: 8662f6c158462371ef55-886a98374c248ea34384
+2026-03-06 15:35:39 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: {
+  uuid: '63174797-d061-40f6-9c6b-49c8b24cd9a5',
+  test_framework_name: 'Playwright',
+  test_framework_version: '1.58.2',
+  test_logs: [],
+  test_hooks_finished: {},
+  test_hooks_started: {},
+  test_uuid: '63174797-d061-40f6-9c6b-49c8b24cd9a5',
+  test_result: 'pending',
+  automate_session_name: 'OrangeHRM Tests - Crear y validar nuevo emplead',
+  test_file_path: 'C:\\Users\\milto\\Desktop\\OrangeProject\\tests\\e2e\\example.spec.ts',
+  test_id: '8662f6c158462371ef55-886a98374c248ea34384',
+  test_name: 'Crear y validar nuevo emplead',
+  test_location: 'C:\\Users\\milto\\Desktop\\OrangeProject\\tests\\e2e\\example.spec.ts:26',
+  test_code: 'async () => {\n' +
+    "    await _test.test.step('Paso 1: Navegar a la aplicación y hacer login', async () => {\n" +
+    '      await methods.navigateTo();\n' +
+    '      await loginPage.login();\n' +
+    '    });\n' +
+    "    await _test.test.step('Paso 2: Crear un nuevo empleado en PIM', async () => {\n" +
+    '      await dashboardMenu.clickMenuItem(_enums.MenuItems.PIM);\n' +
+    '      await pim.createEmployee(userName, lastName);\n' +
+    '    });\n' +
+    "    await _test.test.step('Paso 3: Buscar y validar el empleado en Directory', async () => {\n" +
+    '      await dashboardMenu.clickMenuItem(_enums.MenuItems.Directory);\n' +
+    '      await directory.searchEmployee(`${userName}`);\n' +
+    '      await directory.clickEmployeeCard();\n' +
+    '      const employeeName = await directory.getEmployeeNameFromCard();\n' +
+    '      (0, _test.expect)(employeeName).toBe(userName);\n' +
+    '    });\n' +
+    '  }',
+  test_tags: [],
+  test_started_at: '2026-03-06T21:35:14.429Z',
+  test_scope: 'OrangeHRM Tests - Crear y validar nuevo emplead',
+  test_scopes: [ 'OrangeHRM Tests' ],
+  test_rerun_name: ' -latest:OSX Big Sur-browserstack e2e\\example.spec.ts OrangeHRM Tests Crear y validar nuevo emplead'
+}
+2026-03-06 15:35:39 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-03-06 15:35:39 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-03-06 15:35:40 - [32minfo[39m: getting screenshots results.
+2026-03-06 15:35:40 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-03-06 15:35:40 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-03-06 15:35:40 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-03-06 15:35:40 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-03-06 15:35:40 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-03-06 15:35:41 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-03-06 15:35:41 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-03-06 15:35:41 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-03-06 15:35:41 - [32minfo[39m: [ObservabilityModule] onBeforeTest: TEST REPORTING AND ANALYTICS sync done
+2026-03-06 15:35:41 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-03-06 15:35:41 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-03-06 15:35:41 - [32minfo[39m: [GrpcClient] Sending DriverInit
+2026-03-06 15:35:41 - [32minfo[39m: [GrpcClient] DriverInit request successful
+2026-03-06 15:35:41 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-03-06 15:35:42 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-03-06 15:35:42 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-03-06 15:35:42 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-03-06 15:35:42 - [32minfo[39m: [ObservabilityModule] onBeforeTest: TEST REPORTING AND ANALYTICS sync done
+2026-03-06 15:35:42 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-03-06 15:35:42 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-03-06 15:35:42 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-03-06 15:35:42 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-03-06 15:35:42 - [32minfo[39m: [Accessibility] afterTestHook state: accessibilityPlatform=undefined, bstackA11yShouldScan=true
+2026-03-06 15:35:42 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-03-06 15:35:42 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-03-06 15:35:42 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-03-06 15:35:42 - [32minfo[39m: [ObservabilityModule] onBeforeTest: TEST REPORTING AND ANALYTICS sync done
+2026-03-06 15:35:42 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 91d89991-4c92-4e74-8359-5a1f8d6c1495
+2026-03-06 15:35:42 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-03-06 15:35:42 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-03-06 15:35:42 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-03-06 15:35:42 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-03-06 15:35:42 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=91d89991-4c92-4e74-8359-5a1f8d6c1495
+2026-03-06 15:35:42 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-03-06 15:35:42 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-03-06 15:35:42 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-03-06 15:35:42 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-03-06 15:35:42 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-03-06 15:35:42 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-03-06 15:35:42 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-03-06 15:35:42 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 91d89991-4c92-4e74-8359-5a1f8d6c1495
+2026-03-06 15:35:42 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-03-06 15:35:42 - [32minfo[39m: [PlaywrightDriverModule] testId: 42e4eb252cab889502ef-beef8a64bde36342ff81
+2026-03-06 15:35:42 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: {
+  uuid: '90af971c-8f9c-4bd2-9124-eef90ebd8dd8',
+  test_framework_name: 'Playwright',
+  test_framework_version: '1.58.2',
+  test_logs: [],
+  test_hooks_finished: {},
+  test_hooks_started: {},
+  test_uuid: '90af971c-8f9c-4bd2-9124-eef90ebd8dd8',
+  test_result: 'pending',
+  automate_session_name: 'API OrangeHRM - Empleados - GET /pim/employees → lista empleados',
+  test_file_path: 'C:\\Users\\milto\\Desktop\\OrangeProject\\tests\\api\\employees.api.spec.ts',
+  test_id: '42e4eb252cab889502ef-beef8a64bde36342ff81',
+  test_name: 'GET /pim/employees → lista empleados',
+  test_location: 'C:\\Users\\milto\\Desktop\\OrangeProject\\tests\\api\\employees.api.spec.ts:6',
+  test_code: 'async ({\n' +
+    '    page\n' +
+    '  }) => {\n' +
+    "    await _test.test.step('Enviar solicitud GET a la API de empleados', async () => {\n" +
+    "      const response = await page.request.get('https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees');\n" +
+    '      (0, _test.expect)(response.status()).toBe(200);\n' +
+    '    });\n' +
+    "    await _test.test.step('Validar estructura de la respuesta', async () => {\n" +
+    "      const response = await page.request.get('https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees');\n" +
+    '      const body = await response.json();\n' +
+    "      console.log('Status:', response.status());\n" +
+    "      console.log('Headers:', response.headers());\n" +
+    "      console.log('Body:', JSON.stringify(body, null, 2));\n" +
+    "      (0, _test.expect)(body).toHaveProperty('data');\n" +
+    '      (0, _test.expect)(Array.isArray(body.data)).toBeTruthy();\n' +
+    '      (0, _test.expect)(body.data.length).toBeGreaterThan(0);\n' +
+    "      // console.log('Total empleados:', body.meta?.total);\n" +
+    '    });\n' +
+    '  }',
+  test_tags: [],
+  test_started_at: '2026-03-06T21:35:29.362Z',
+  test_scope: 'API OrangeHRM - Empleados - GET /pim/employees → lista empleados',
+  test_scopes: [ 'API OrangeHRM - Empleados' ],
+  test_rerun_name: ' -Samsung Galaxy S22 Ultra:12.0-browserstack-mobile api\\employees.api.spec.ts API OrangeHRM - Empleados GET /pim/employees → lista empleados'
+}
+2026-03-06 15:35:42 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-03-06 15:35:42 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-03-06 15:35:42 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-03-06 15:35:42 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=23484:0, state=AutomationFrameworkState.CREATE
+2026-03-06 15:35:42 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=08dc8102153cde709b80ced9262aec3f4ad053f1707dcac1b1ae9a250193309b target=23484:0
+2026-03-06 15:35:43 - [32minfo[39m: getting screenshots results.
+2026-03-06 15:35:43 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-03-06 15:35:43 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-03-06 15:35:43 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-03-06 15:35:43 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-03-06 15:35:52 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-03-06 15:35:52 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-03-06 15:35:52 - [32minfo[39m: [GrpcClient] Sending DriverInit
+2026-03-06 15:35:52 - [32minfo[39m: [GrpcClient] DriverInit request successful
+2026-03-06 15:35:53 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-03-06 15:35:54 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-03-06 15:35:54 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-03-06 15:35:54 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-03-06 15:35:54 - [32minfo[39m: [ObservabilityModule] onBeforeTest: TEST REPORTING AND ANALYTICS sync done
+2026-03-06 15:35:54 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-03-06 15:35:54 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-03-06 15:35:54 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-03-06 15:35:54 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-03-06 15:36:28 - [32minfo[39m: [Accessibility] afterTestHook state: accessibilityPlatform=undefined, bstackA11yShouldScan=true
+2026-03-06 15:36:28 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-03-06 15:36:28 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-03-06 15:36:28 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-03-06 15:36:28 - [32minfo[39m: [ObservabilityModule] onBeforeTest: TEST REPORTING AND ANALYTICS sync done
+2026-03-06 15:36:28 - [32minfo[39m: [PlaywrightDriverModule] testId: 8662f6c158462371ef55-fb9ba708e2a07776c3a1
+2026-03-06 15:36:28 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: {
+  uuid: '4b4d20f0-afa3-4c42-9349-2dcff253d474',
+  test_framework_name: 'Playwright',
+  test_framework_version: '1.58.2',
+  test_logs: [],
+  test_hooks_finished: {},
+  test_hooks_started: {},
+  test_uuid: '4b4d20f0-afa3-4c42-9349-2dcff253d474',
+  test_result: 'pending',
+  automate_session_name: 'OrangeHRM Tests - Crear y validar nuevo emplead',
+  test_file_path: 'C:\\Users\\milto\\Desktop\\OrangeProject\\tests\\e2e\\example.spec.ts',
+  test_id: '8662f6c158462371ef55-fb9ba708e2a07776c3a1',
+  test_name: 'Crear y validar nuevo emplead',
+  test_location: 'C:\\Users\\milto\\Desktop\\OrangeProject\\tests\\e2e\\example.spec.ts:26',
+  test_code: 'async () => {\n' +
+    "    await _test.test.step('Paso 1: Navegar a la aplicación y hacer login', async () => {\n" +
+    '      await methods.navigateTo();\n' +
+    '      await loginPage.login();\n' +
+    '    });\n' +
+    "    await _test.test.step('Paso 2: Crear un nuevo empleado en PIM', async () => {\n" +
+    '      await dashboardMenu.clickMenuItem(_enums.MenuItems.PIM);\n' +
+    '      await pim.createEmployee(userName, lastName);\n' +
+    '    });\n' +
+    "    await _test.test.step('Paso 3: Buscar y validar el empleado en Directory', async () => {\n" +
+    '      await dashboardMenu.clickMenuItem(_enums.MenuItems.Directory);\n' +
+    '      await directory.searchEmployee(`${userName}`);\n' +
+    '      await directory.clickEmployeeCard();\n' +
+    '      const employeeName = await directory.getEmployeeNameFromCard();\n' +
+    '      (0, _test.expect)(employeeName).toBe(userName);\n' +
+    '    });\n' +
+    '  }',
+  test_tags: [],
+  test_started_at: '2026-03-06T21:35:42.650Z',
+  test_scope: 'OrangeHRM Tests - Crear y validar nuevo emplead',
+  test_scopes: [ 'OrangeHRM Tests' ],
+  test_rerun_name: ' -Samsung Galaxy S22 Ultra:12.0-browserstack-mobile e2e\\example.spec.ts OrangeHRM Tests Crear y validar nuevo emplead'
+}
+2026-03-06 15:36:28 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-03-06 15:36:28 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-03-06 15:36:29 - [32minfo[39m: getting screenshots results.
+2026-03-06 15:36:29 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-03-06 15:36:29 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-03-06 15:36:29 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-03-06 15:36:29 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-03-06 15:36:41 - [32minfo[39m: [Accessibility] afterTestHook state: accessibilityPlatform=false, bstackA11yShouldScan=true
+2026-03-06 15:36:41 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-03-06 15:36:41 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-03-06 15:36:41 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-03-06 15:36:41 - [32minfo[39m: [ObservabilityModule] onBeforeTest: TEST REPORTING AND ANALYTICS sync done
+2026-03-06 15:36:42 - [32minfo[39m: [PlaywrightDriverModule] testId: 8662f6c158462371ef55-8aa7c98f9616d289e915
+2026-03-06 15:36:42 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: {
+  uuid: '90e16d95-5721-43ee-bf6b-2ca4a1d5f366',
+  test_framework_name: 'Playwright',
+  test_framework_version: '1.58.2',
+  test_logs: [],
+  test_hooks_finished: {},
+  test_hooks_started: {},
+  test_uuid: '90e16d95-5721-43ee-bf6b-2ca4a1d5f366',
+  test_result: 'pending',
+  automate_session_name: 'OrangeHRM Tests - Crear y validar nuevo emplead',
+  test_file_path: 'C:\\Users\\milto\\Desktop\\OrangeProject\\tests\\e2e\\example.spec.ts',
+  test_id: '8662f6c158462371ef55-8aa7c98f9616d289e915',
+  test_name: 'Crear y validar nuevo emplead',
+  test_location: 'C:\\Users\\milto\\Desktop\\OrangeProject\\tests\\e2e\\example.spec.ts:26',
+  test_code: 'async () => {\n' +
+    "    await _test.test.step('Paso 1: Navegar a la aplicación y hacer login', async () => {\n" +
+    '      await methods.navigateTo();\n' +
+    '      await loginPage.login();\n' +
+    '    });\n' +
+    "    await _test.test.step('Paso 2: Crear un nuevo empleado en PIM', async () => {\n" +
+    '      await dashboardMenu.clickMenuItem(_enums.MenuItems.PIM);\n' +
+    '      await pim.createEmployee(userName, lastName);\n' +
+    '    });\n' +
+    "    await _test.test.step('Paso 3: Buscar y validar el empleado en Directory', async () => {\n" +
+    '      await dashboardMenu.clickMenuItem(_enums.MenuItems.Directory);\n' +
+    '      await directory.searchEmployee(`${userName}`);\n' +
+    '      await directory.clickEmployeeCard();\n' +
+    '      const employeeName = await directory.getEmployeeNameFromCard();\n' +
+    '      (0, _test.expect)(employeeName).toBe(userName);\n' +
+    '    });\n' +
+    '  }',
+  test_tags: [],
+  test_started_at: '2026-03-06T21:35:24.352Z',
+  test_scope: 'OrangeHRM Tests - Crear y validar nuevo emplead',
+  test_scopes: [ 'OrangeHRM Tests' ],
+  test_rerun_name: ' -latest:Windows 10-browserstack e2e\\example.spec.ts OrangeHRM Tests Crear y validar nuevo emplead'
+}
+2026-03-06 15:36:42 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-03-06 15:36:42 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-03-06 15:36:42 - [32minfo[39m: getting screenshots results.
+2026-03-06 15:36:42 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-03-06 15:36:42 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-03-06 15:36:42 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-03-06 15:36:42 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-03-06 15:39:14 - [32minfo[39m: Shutdown triggered by SIGINT
+2026-03-06 15:39:14 - [32minfo[39m: Shutdown triggered by SIGINT
+2026-03-06 15:39:14 - [31merror[39m: [ClientTroubleShootingService] Process Interruption details not found: {}
+2026-03-06 15:39:14 - [31merror[39m: [ClientTroubleShootingService] Process Interruption details not found: {}
+2026-03-06 15:39:14 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2026-03-06 15:39:14 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2026-03-06 15:39:14 - [32minfo[39m: [GrpcClient] Stopping bin session
+2026-03-06 15:39:14 - [32minfo[39m: [GrpcClient] Stopping bin session
+2026-03-06 15:39:14 - [32minfo[39m: stop: stopBinSession build_link=null hashed_id=null o11y_uuid=nidw4nua0xhjpwlccw6fzcgdxd4vhssajvnw1bdy
+2026-03-06 15:39:14 - [31merror[39m: [GrpcClient] StopBinSession error: 14 UNAVAILABLE: No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: 
+2026-03-06 15:39:14 - [31merror[39m: [GrpcClient] StopBinSession error: 14 UNAVAILABLE: No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: 
+2026-03-06 15:39:14 - [31merror[39m: [GrpcClient] Error in stopBinSession: Error: 14 UNAVAILABLE: No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: 
+    at callErrorFromStatus (C:\Users\milto\Desktop\OrangeProject\node_modules\@grpc\grpc-js\build\src\call.js:32:19)
+    at Object.onReceiveStatus (C:\Users\milto\Desktop\OrangeProject\node_modules\@grpc\grpc-js\build\src\client.js:193:76)
+    at Object.onReceiveStatus (C:\Users\milto\Desktop\OrangeProject\node_modules\@grpc\grpc-js\build\src\client-interceptors.js:367:141)
+    at Object.onReceiveStatus (C:\Users\milto\Desktop\OrangeProject\node_modules\@grpc\grpc-js\build\src\client-interceptors.js:327:181)
+    at C:\Users\milto\Desktop\OrangeProject\node_modules\@grpc\grpc-js\build\src\resolving-call.js:135:78
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+for call at
+    at ServiceClientImpl.makeUnaryRequest (C:\Users\milto\Desktop\OrangeProject\node_modules\@grpc\grpc-js\build\src\client.js:161:32)
+    at ServiceClientImpl.stopBinSession (C:\Users\milto\Desktop\OrangeProject\node_modules\@grpc\grpc-js\build\src\make-client.js:105:19)
+    at _0x4ca2b0 (C:\Users\milto\Desktop\OrangeProject\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:15679)
+    at new Promise (<anonymous>)
+    at GrpcClient.stopBinSession (C:\Users\milto\Desktop\OrangeProject\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:15578)
+    at BrowserstackCLI.stop (C:\Users\milto\Desktop\OrangeProject\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:16351)
+    at BrowserStackSetup.intExitHandler (C:\Users\milto\Desktop\OrangeProject\node_modules\browserstack-node-sdk\src\helpers\BrowserStackSetup.js:1:25984)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 14,
+  details: 'No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: ',
+  metadata: Metadata {
+    internalRepr: Map(0) {},
+    opaqueData: Map(0) {},
+    options: {}
+  }
+}
+2026-03-06 15:39:14 - [31merror[39m: [GrpcClient] Error in stopBinSession: Error: 14 UNAVAILABLE: No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: 
+    at callErrorFromStatus (C:\Users\milto\Desktop\OrangeProject\node_modules\@grpc\grpc-js\build\src\call.js:32:19)
+    at Object.onReceiveStatus (C:\Users\milto\Desktop\OrangeProject\node_modules\@grpc\grpc-js\build\src\client.js:193:76)
+    at Object.onReceiveStatus (C:\Users\milto\Desktop\OrangeProject\node_modules\@grpc\grpc-js\build\src\client-interceptors.js:367:141)
+    at Object.onReceiveStatus (C:\Users\milto\Desktop\OrangeProject\node_modules\@grpc\grpc-js\build\src\client-interceptors.js:327:181)
+    at C:\Users\milto\Desktop\OrangeProject\node_modules\@grpc\grpc-js\build\src\resolving-call.js:135:78
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+for call at
+    at ServiceClientImpl.makeUnaryRequest (C:\Users\milto\Desktop\OrangeProject\node_modules\@grpc\grpc-js\build\src\client.js:161:32)
+    at ServiceClientImpl.stopBinSession (C:\Users\milto\Desktop\OrangeProject\node_modules\@grpc\grpc-js\build\src\make-client.js:105:19)
+    at _0x4ca2b0 (C:\Users\milto\Desktop\OrangeProject\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:15679)
+    at new Promise (<anonymous>)
+    at GrpcClient.stopBinSession (C:\Users\milto\Desktop\OrangeProject\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:15578)
+    at BrowserstackCLI.stop (C:\Users\milto\Desktop\OrangeProject\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:16351)
+    at BrowserStackSetup.intExitHandler (C:\Users\milto\Desktop\OrangeProject\node_modules\browserstack-node-sdk\src\helpers\BrowserStackSetup.js:1:25984)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 14,
+  details: 'No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: ',
+  metadata: Metadata {
+    internalRepr: Map(0) {},
+    opaqueData: Map(0) {},
+    options: {}
+  }
+}
+2026-03-06 15:39:14 - [32minfo[39m: [BrowserstackCLI] Unconfiguring modules
+2026-03-06 15:39:14 - [32minfo[39m: [BrowserstackCLI] Unconfiguring modules
+2026-03-06 15:39:14 - [32minfo[39m: [BrowserstackCLI] stop: channel closed
+2026-03-06 15:39:14 - [32minfo[39m: [BrowserstackCLI] stop: channel closed
+2026-03-06 15:39:19 - [32minfo[39m: [BrowserstackCLI] stop: shutting down CLI
+2026-03-06 15:39:19 - [32minfo[39m: [BrowserstackCLI] stop: shutting down CLI
+2026-03-06 15:39:22 - [33mwarn[39m: [BrowserstackCLI] stop: process exit timeout, forcing kill
+2026-03-06 15:39:22 - [33mwarn[39m: [BrowserstackCLI] stop: process exit timeout, forcing kill
+2026-03-06 15:39:25 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2026-03-06 15:39:25 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2026-03-06 15:39:25 - [32minfo[39m: Visit https://automation.browserstack.com/builds/nidw4nua0xhjpwlccw6fzcgdxd4vhssajvnw1bdy to view build report, insights, and many more debugging information all at one place!
+
+2026-03-06 15:39:25 - [32minfo[39m: Shutdown triggered by SIGHUP
+2026-03-06 15:39:25 - [32minfo[39m: Shutdown triggered by SIGHUP
+2026-03-06 15:39:25 - [31merror[39m: [ClientTroubleShootingService] Process Interruption details not found: {}
+2026-03-06 15:39:25 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2026-03-06 15:39:25 - [31merror[39m: [ClientTroubleShootingService] Process Interruption details not found: {}
+2026-03-06 15:39:25 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2026-03-06 15:39:26 - [32minfo[39m: View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/5a558aca7333d74a81d8558954e87a02f5596def
+2026-03-06 15:39:26 - [32minfo[39m: SDK run ended for id: 55f58004-6d58-481a-8439-4434652a935f, testhub id: nidw4nua0xhjpwlccw6fzcgdxd4vhssajvnw1bdy
+2026-03-06 15:39:26 - [32minfo[39m: SDK run ended for id: 55f58004-6d58-481a-8439-4434652a935f, testhub id: nidw4nua0xhjpwlccw6fzcgdxd4vhssajvnw1bdy
+2026-03-06 15:39:28 - [32minfo[39m: Deleting C:\Users\milto\Desktop\OrangeProject\playwright-browserstack-sdk.config.ts
+2026-03-06 15:39:28 - [32minfo[39m: Deleting C:\Users\milto\Desktop\OrangeProject\playwright-browserstack-sdk.config.ts
+2026-03-06 15:39:28 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2026-03-06 15:39:28 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2026-03-06 15:40:05 - [32minfo[39m: Reading configs from C:\Users\milto\Desktop\OrangeProject\browserstack.yml
+2026-03-06 15:40:05 - [32minfo[39m: Log Directory has been set to C:\Users\milto\Desktop\OrangeProject\log
+2026-03-06 15:40:05 - [32minfo[39m: Log Directory has been set to C:\Users\milto\Desktop\OrangeProject\log
+2026-03-06 15:40:05 - [32minfo[39m: Running SDK with args C:\Program Files\nodejs\node.exe C:\Users\milto\Desktop\OrangeProject\node_modules\browserstack-node-sdk\src\bin\runner.js playwright test --project=chromium
+2026-03-06 15:40:05 - [32minfo[39m: SDK run started with id: 65a91760-b34e-479c-a0ae-1bbe9c194bea
+2026-03-06 15:40:06 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2026-03-06 15:40:15 - [32minfo[39m: Local binary started successfully
+2026-03-06 15:40:05 - [32minfo[39m: Running SDK with args C:\Program Files\nodejs\node.exe C:\Users\milto\Desktop\OrangeProject\node_modules\browserstack-node-sdk\src\bin\runner.js playwright test --project=chromium
+2026-03-06 15:40:05 - [32minfo[39m: SDK run started with id: 65a91760-b34e-479c-a0ae-1bbe9c194bea
+2026-03-06 15:40:06 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2026-03-06 15:40:15 - [32minfo[39m: Local binary started successfully
+2026-03-06 15:40:16 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2026-03-06 15:40:16 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2026-03-06 15:40:16 - [32minfo[39m: [CLIUtils] Current CLI Path Found: C:\Users\milto\.browserstack\cli\binary-win-x64.exe
+2026-03-06 15:40:16 - [32minfo[39m: [CLIUtils] Current CLI Path Found: C:\Users\milto\.browserstack\cli\binary-win-x64.exe
+2026-03-06 15:40:17 - [32minfo[39m: [BrowserstackCLI] spawning command='C:\Users\milto\.browserstack\cli\binary-win-x64.exe,sdk'
+2026-03-06 15:40:17 - [32minfo[39m: [BrowserstackCLI] spawning command='C:\Users\milto\.browserstack\cli\binary-win-x64.exe,sdk'
+2026-03-06 15:40:18 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"fb31dd85-ecb3-4ea0-8d23-25d6b7058973","listen":"127.0.0.1:5400","port":"5400"}
+2026-03-06 15:40:18 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"fb31dd85-ecb3-4ea0-8d23-25d6b7058973","listen":"127.0.0.1:5400","port":"5400"}
+2026-03-06 15:40:18 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-03-06 15:40:18 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-03-06 15:40:18 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: fb31dd85-ecb3-4ea0-8d23-25d6b7058973 and listen address: 127.0.0.1:5400
+2026-03-06 15:40:18 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: fb31dd85-ecb3-4ea0-8d23-25d6b7058973 and listen address: 127.0.0.1:5400
+2026-03-06 15:40:18 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2026-03-06 15:40:18 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2026-03-06 15:40:18 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test","--project=chromium"], parsedConfig=[]
+2026-03-06 15:40:18 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test","--project=chromium"], parsedConfig=[]
+2026-03-06 15:40:25 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2026-03-06 15:40:25 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2026-03-06 15:40:25 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-03-06 15:40:25 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=fb31dd85-ecb3-4ea0-8d23-25d6b7058973
+2026-03-06 15:40:25 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-03-06 15:40:25 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test","--project=chromium"]
+2026-03-06 15:40:25 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-03-06 15:40:25 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-03-06 15:40:25 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=fb31dd85-ecb3-4ea0-8d23-25d6b7058973
+2026-03-06 15:40:25 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-03-06 15:40:25 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test","--project=chromium"]
+2026-03-06 15:40:25 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-03-06 15:40:28 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: fb31dd85-ecb3-4ea0-8d23-25d6b7058973
+2026-03-06 15:40:28 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-03-06 15:40:28 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-03-06 15:40:28 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-03-06 15:40:28 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-03-06 15:40:28 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=fb31dd85-ecb3-4ea0-8d23-25d6b7058973
+2026-03-06 15:40:28 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-03-06 15:40:28 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-03-06 15:40:28 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-03-06 15:40:28 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-03-06 15:40:28 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2026-03-06 15:40:28 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2026-03-06 15:40:28 - [32minfo[39m: [GrpcClient] Stopping bin session
+2026-03-06 15:40:28 - [32minfo[39m: [GrpcClient] Stopping bin session
+2026-03-06 15:40:31 - [32minfo[39m: [GrpcClient] StopBinSession successful
+2026-03-06 15:40:31 - [32minfo[39m: [GrpcClient] StopBinSession successful
+2026-03-06 15:40:31 - [32minfo[39m: stop: stopBinSession build_link=null hashed_id=null o11y_uuid=hkbkrbwq4mon5dq2p9dourbmcehzep6gbsfalwxv
+2026-03-06 15:40:31 - [32minfo[39m: [BrowserstackCLI] Unconfiguring modules
+2026-03-06 15:40:31 - [32minfo[39m: [BrowserstackCLI] Unconfiguring modules
+2026-03-06 15:40:31 - [32minfo[39m: [BrowserstackCLI] stop: channel closed
+2026-03-06 15:40:31 - [32minfo[39m: [BrowserstackCLI] stop: channel closed
+2026-03-06 15:40:37 - [32minfo[39m: [BrowserstackCLI] stop: shutting down CLI
+2026-03-06 15:40:37 - [32minfo[39m: [BrowserstackCLI] stop: shutting down CLI
+2026-03-06 15:40:37 - [32minfo[39m: [BrowserstackCLI] stop: CLI process exited
+2026-03-06 15:40:37 - [32minfo[39m: [BrowserstackCLI] stop: CLI process exited
+2026-03-06 15:40:37 - [32minfo[39m: Visit https://automation.browserstack.com/builds/hkbkrbwq4mon5dq2p9dourbmcehzep6gbsfalwxv to view build report, insights, and many more debugging information all at one place!
+
+2026-03-06 15:40:37 - [32minfo[39m: SDK run ended for id: 65a91760-b34e-479c-a0ae-1bbe9c194bea, testhub id: hkbkrbwq4mon5dq2p9dourbmcehzep6gbsfalwxv
+2026-03-06 15:40:37 - [32minfo[39m: SDK run ended for id: 65a91760-b34e-479c-a0ae-1bbe9c194bea, testhub id: hkbkrbwq4mon5dq2p9dourbmcehzep6gbsfalwxv
+2026-03-06 15:40:38 - [32minfo[39m: Deleting C:\Users\milto\Desktop\OrangeProject\playwright-browserstack-sdk.config.ts
+2026-03-06 15:40:38 - [32minfo[39m: Deleting C:\Users\milto\Desktop\OrangeProject\playwright-browserstack-sdk.config.ts
+2026-03-06 15:40:40 - [32minfo[39m: Local binary stopped
+2026-03-06 15:40:40 - [32minfo[39m: Local binary stopped
+2026-03-06 15:40:40 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2026-03-06 15:40:40 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop

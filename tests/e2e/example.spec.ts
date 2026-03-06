@@ -39,7 +39,7 @@ test.describe( 'OrangeHRM Tests', () =>{
       await directory.searchEmployee(`${userName}`);
       await directory.clickEmployeeCard();
       const employeeName = await directory.getEmployeeNameFromCard();
-      expect(employeeName).toBe(userName);
+      expect(employeeName).toBe(`${userName} ${lastName}`); 
     });
   });
 
