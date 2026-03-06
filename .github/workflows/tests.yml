@@ -1,108 +1,89 @@
-# ======================================================
-#  Pipeline CI/CD — OrangeHRM
-#  Incluye: E2E · API · Performance (k6)
-#  Se ejecuta automáticamente cuando haces push a GitHub
-# ======================================================
+name: Playwright CI
 
-name: OrangeHRM Tests
-
-# Cuándo se ejecuta ======================================================
 on:
   push:
-    branches: [main]          # cuando subes código a main
-  workflow_dispatch:           # o manualmente desde GitHub → Actions
+    branches: [main, master]
+  pull_request:
+  workflow_dispatch:
 
 jobs:
-  tests:
-    name: Ejecutar Tests
-    runs-on: ubuntu-latest     # máquina virtual de GitHub
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
 
     steps:
-
-      # Descarga tu código del repositorio de GitHub
-      - name: Obtener código fuente
+      - name: Checkout source code
         uses: actions/checkout@v4
 
-      # Instala Node.js — equivalente a instalar Java para Maven
-      - name: Instalar Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          cache: 'npm'
+          node-version: 20
+          cache: npm
 
-      # Instala dependencias del proyecto — equivalente a mvn install
-      - name: Construir proyecto (npm ci)
+      - name: Install dependencies
         run: npm ci
 
-      # Instala el navegador Chromium para Playwright
-      - name: Instalar Chromium
-        run: npx playwright install --with-deps chromium
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps
 
-      # Hace login en OrangeHRM y guarda la sesión en session.json
-      - name: Generar sesión de login
-        run: npx playwright test --project=setup
-        env:
-          CI: true
-
-      # Ejecuta las pruebas de interfaz de usuario (E2E)
-      - name: Ejecutar pruebas E2E
-        run: npx playwright test --project=chromium
-        env:
-          CI: true
-
-      # Ejecuta las pruebas de API
-      - name: Ejecutar pruebas de API
-        run: npx playwright test --project=api-tests
-        env:
-          CI: true
-
-      # Instala k6 en la máquina virtual de GitHub
-      - name: Instalar k6
+      - name: Install k6
         run: |
-          sudo gpg --no-default-keyring \
-            --keyring /usr/share/keyrings/k6-archive-keyring.gpg \
-            --keyserver hkp://keyserver.ubuntu.com:80 \
-            --recv-keys C5AD17C747E3415A3642D57D77C6C491D6AC1D69
-          echo "deb [signed-by=/usr/share/keyrings/k6-archive-keyring.gpg] \
-            https://dl.k6.io/deb stable main" \
-            | sudo tee /etc/apt/sources.list.d/k6.list
           sudo apt-get update
-          sudo apt-get install k6
+          sudo apt-get install -y gnupg software-properties-common
+          curl https://dl.k6.io/key.gpg | sudo gpg --dearmor -o /usr/share/keyrings/k6-archive-keyring.gpg
+          echo "deb [signed-by=/usr/share/keyrings/k6-archive-keyring.gpg] https://dl.k6.io/deb stable main" | sudo tee /etc/apt/sources.list.d/k6.list
+          sudo apt-get update
+          sudo apt-get install -y k6
 
-      # Ejecuta la prueba de carga con k6
-      # continue-on-error: true → si k6 falla, el pipeline sigue
-      - name: Ejecutar pruebas de performance (k6)
-        run: |
-          mkdir -p test-results/performance
-          k6 run \
-            --out json=test-results/performance/results.json \
-            tests/performance/login.perf.ts
+      - name: Run E2E tests
+        id: e2e
+        run: npx playwright test --project=chromium
         continue-on-error: true
 
-      # Genera y almacena el reporte HTML de Playwright
-      # if: always() → se ejecuta aunque los tests fallen
-      - name: Almacenar reporte HTML (Playwright)
-        uses: actions/upload-artifact@v4
+      - name: Run API tests
+        id: api
+        run: npx playwright test --project=api-tests --trace on
+        continue-on-error: true
+
+      - name: Run Performance tests
+        id: perf
+        run: k6 run tests/performance/login.perf.ts --summary-export=log/performance-report.json
+        continue-on-error: true
+
+      - name: Upload Playwright HTML report
         if: always()
+        uses: actions/upload-artifact@v4
         with:
-          name: reporte-playwright
+          name: playwright-report
           path: playwright-report/
-          retention-days: 30
+          if-no-files-found: ignore
+          retention-days: 14
 
-      # Almacena screenshots y trazas de los tests
-      - name: Almacenar evidencia (screenshots + trazas)
-        uses: actions/upload-artifact@v4
+      - name: Upload test results
         if: always()
+        uses: actions/upload-artifact@v4
         with:
-          name: evidencia-tests
+          name: test-results
           path: test-results/
-          retention-days: 30
+          if-no-files-found: ignore
+          retention-days: 14
 
-      # Almacena los resultados de performance de k6
-      - name: Almacenar resultados de performance
-        uses: actions/upload-artifact@v4
+      - name: Upload logs
         if: always()
+        uses: actions/upload-artifact@v4
         with:
-          name: reporte-performance
-          path: test-results/performance/
-          retention-days: 30
+          name: logs
+          path: log/
+          if-no-files-found: ignore
+          retention-days: 14
+
+      - name: Fail job if any suite failed
+        if: always()
+        run: |
+          if [ "${{ steps.e2e.outcome }}" = "failure" ] || \
+             [ "${{ steps.api.outcome }}" = "failure" ] || \
+             [ "${{ steps.perf.outcome }}" = "failure" ]; then
+            echo "One or more test suites failed."
+            exit 1
+          fi
